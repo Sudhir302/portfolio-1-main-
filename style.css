@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    color: white;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: black;
+}
+.container{
+    margin: 1rem 10%;
+}
+
+/* ---------------------for navigation--------------------- */
+
+.header{
+    margin-top: -1rem;
+    width: 100%;
+    height: 100vh;
+    background-image: url(Artboard.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 5rem;
+
+}
+
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    position: sticky;
+    top: 5px;
+    background-color: gray;
+    border-radius: 1rem;
+}
+
+    #nav-heads a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+}
+
+#signature p{
+    margin-left: .3rem;
+    font-size: 2.5rem;
+    font-family: cursive;
+}
+
+span{
+    color: red;
+}
+
+#nav-heads li{
+    display: inline;
+    margin: 1rem;
+    font-size: 1.2rem;
+    margin-top: 50%;
+}
+
+/* -------------for head text ------------------- */
+
+#head-text{
+    margin-top: 13rem;
+    margin-left: 20rem;
+}
+#one{
+    font-size: 2.8rem;
+    color: rgb(185, 114, 114);
+}
+#two{
+    font-size: 2rem;
+}
+#three{
+    font-size: 1.2rem;
+}
+
+/* ---------------------for about image------------------------------ */
+
+.subtitles{
+    font-size: 3.5rem;
+}
+.content{
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    text-align: justify;
+}
+
+
+#about{
+    background-image: url(Artboard1.jpg);
+    height: 80vh;
+    width: 100%;
+}
+
+#about-section{
+    margin-left: 30rem;
+    padding-top: 10rem;
+}
+
+.tablinks{
+    margin-top: 1rem;
+}
+.tablinks p{
+    display: inline;
+    margin-right: 2rem;
+    font-weight: bold;
+    font-size: 1.2;
+}
+
+/* ---------------tab content-------------------------- */
+
+.tab-content{
+    margin-top: 1rem;
+}
+
+.tab-content li{
+    list-style: none;
+    line-height: 1.5rem;
+}
+
+/* ----------------------for education------------------ */
+
+#techskill li{
+    font-size: 1.2rem;
+    color: #b54769;
+}
+
+.course{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color:wheat;
+}
+.place{
+    font-size: 1.1rem;
+}
+
+.tab-content{
+    display: none;
+}
+
+.tab-content.active{
+    display: block;
+}
+
+/* ------------------------skills------------------------------ */
+
+#skill-name{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.5rem;
+}
+
+.skill-box{
+    width: 18%;
+    height: 17rem;
+    background-color: #262626;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.skill-box i{
+    margin-bottom: .3rem;
+    font-size: 2rem;
+    color: wheat;
+}
+
+.skill-head{
+    font-size: 1.5rem;
+}
+
+.skill-content{
+    text-align: justify;
+    margin-top: .5rem;
+    font-size: .9rem;
+    margin-bottom: .3rem;
+}
+
+.skill-box a{
+    font-size: .8;
+    text-decoration: none;
+    color: #b54769;
+}
+
+/* ------------------------projects---------------------------- */
+#projects{
+    margin-top: 5rem;
+}
+#project-holder{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-done img{
+    width: 15rem;
+    height: 25rem;
+    border-radius: 1rem;
+    transition: transform 0.5s;
+}
+
+.works{
+    width: 15rem;
+    border-radius: 1rem;
+}
+
+.project-done{
+    border-radius: 1rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.layer{
+    width: 100%;
+    height: 0;
+    background:linear-gradient(rgba(0,0,0,0.6), #ff004f);
+    border-radius: 1rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    transition: height .5s;
+}
+
+.topic{
+    margin-top: 5rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
+    font-size: 1.5rem;
+}
+.description{
+    margin-left: .5rem;
+    margin-right: .5rem;
+    text-align: justify;
+    margin-top: 1rem;
+    font-size: 1rem;
+    line-height: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.layer a{
+    margin-left: .5rem;
+    margin-right: .5rem;
+    font-size: 1.3rem;
+}
+
+.btn{
+    display: block;
+    margin: 30px auto;
+    width: fit-content;
+    border: 1px solid #ff004f;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 1rem;
+    transition: font-size .5s;
+}
+
+.left-section a{
+    text-decoration: none;
+}
+.block-container{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.block{
+    display: block;
+    line-height: 2.5rem;
+}
+
+.inline i{
+    font-size: 2rem;
+    margin: .3rem;
+    color: whitesmoke;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+}
+/* ------------------for message content------------------- */
+
+input{
+    width: 100%;
+    height: 2.5rem;
+    margin: 1rem 1rem 1rem 0;
+    border-radius: .3rem;
+    padding: 1rem;
+    color:white;
+    background-color: #262626;
+}
+textarea{
+    width: 100%;
+    border-radius: .3rem;
+    padding: 1rem;
+    color:white;
+    background-color: #262626;
+}
+
+.btn2{
+    margin-left: 0;
+}
+
+.btn2, .btn3{
+    background-color: #262626;
+}
+
+footer{
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #262626;
+}
+
+#confirmation{
+    color: white;
+    margin-top: -3rem;
+    display: block;
+}
