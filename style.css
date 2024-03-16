@@ -94,6 +94,7 @@ span{
 
 #about{
     background-image: url(Artboard1.jpg);
+    background-size: cover;
     height: 80vh;
     width: 100%;
 }
