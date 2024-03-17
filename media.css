@@ -92,6 +92,8 @@
     #head-text{
         margin: 0;
         padding: 0;
+        margin-top: 4rem;
+        padding: 1rem;
     }
 
     /* --------------------------------about--------------------- */
@@ -99,7 +101,6 @@
         margin: 0;
         padding: 0;
         width: 20rem;
-        background-color: yellow;
     }
     .content{
         width: 20rem;
@@ -148,5 +149,17 @@
 
     footer{
         font-size: .7rem;
+    }
+
+    .subtitles{
+        font-size: 2rem;
+    }
+    strong{
+        font-size: .8rem;
+        padding: 1rem;
+    }
+
+    .tablinks{
+        margin-top: 2rem;
     }
 }
