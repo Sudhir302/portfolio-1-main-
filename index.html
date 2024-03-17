@@ -14,13 +14,15 @@
     <div class="navigation container">
         <div id="signature"><p><span>C</span>Sudhir.</p></div>
         <div id="nav-heads">
-            <ul>
+            <ul id="slide-menu">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contacts">Contacts</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
             </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
         </div>
     </div>
     <div class="header" id="home" >
@@ -48,11 +50,11 @@
                 <p class="subtitles">About Me</p>
                 <p class="content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, saepe! Necessitatibus quos corporis porro rem ab vel debitis sunt aperiam fuga incidunt officiis architecto non nisi praesentium quaerat, esse similique.</p>
                 <div class="tablinks">
-                    <p class="tab activetab" onclick="opentab('skills')">Skills</p>
+                    <p class="tab activetab" onclick="opentab('skills-tab')" class="gayab">Skills</p>
                     <p class="tab " onclick="opentab('education')">Education</p>
-                    <p class="tab " onclick="opentab('experience')">Experience</p>
+                    <p class="tab " onclick="opentab('experience')" class="gayab">Experience</p>
                 </div>
-                <div class="tab-content active" id="skills">
+                <div class="tab-content active" id="skills-tab">
                     <ul id="techskill">
                         <li>HTML5</li>
                         <li>CSS3</li>
@@ -93,16 +95,10 @@
 
     <!-- -------------------------skills------------------------------ -->
 
-    <div class="skills">
+    <div id="skills">
         <div class="container">
             <div class="subtitles">What I'm able to..</div>
             <div id="skill-name">
-                <div class="skill-box">
-                    <i class="fa-brands fa-html5"></i>
-                    <p class="skill-head">HTML5</p>
-                    <p class="skill-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio eius eaque inventore fuga atque quisquam, libero nostrum, deleniti quae itaque est iusto tenetur. Consectetur earum possimus et reprehenderit quam laboriosam?</p>
-                    <a href="#">Learn more</a>
-                </div>
                 <div class="skill-box">
                     <i class="fa-brands fa-css3-alt"></i>
                     <p class="skill-head"> CSS3</p>

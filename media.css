@@ -1,0 +1,152 @@
+/* -----------------for max-width: 1197px--------------------- */
+
+@media screen and (max-width: 1198px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    /*
+    #head-text{
+        width: fit-content;
+        margin-left: 15rem;
+        margin-top: 10rem;
+    } */
+    
+    /* -----------------------for skills----------------------------- */
+    #skill-name{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    #skill-name > .skill-box{
+        margin-top: 1.3rem;
+    }
+    
+    
+    /* -------------------for my project----------------------- */
+    
+    #project-holder{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    #project-holder > .project-done{
+        margin-top: 2rem;
+    }
+    
+    }
+    
+    
+    
+    
+    /* -----------------------------for max-width: 925px---------------------- */
+    
+    @media screen and (max-width: 925px){
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+
+        #about-section{
+            margin-top: 0;
+            margin-left: 23rem;
+            width: 30rem;
+            padding-right: 2rem;
+        }
+
+        /* ------------------------header bgimage------------- */
+
+        /* #home{
+            background-image: none;
+        }
+        #about{
+            background-image: none;
+        } */
+    }
+
+
+
+
+
+
+    /* -----------------------max-width:771px--------------------- */
+
+@media screen and (max-width: 771px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    #home{
+        background-image: none;
+    }
+
+    #about{
+        background-image: none;
+    }
+/* -----------------------header---------------------------- */
+    #head-text{
+        margin: 0;
+        padding: 0;
+    }
+
+    /* --------------------------------about--------------------- */
+    #about-section{
+        margin: 0;
+        padding: 0;
+        width: 20rem;
+        background-color: yellow;
+    }
+    .content{
+        width: 20rem;
+    }
+
+/* --------------navigation slide-------------------------- */
+
+    #nav-heads .fa-solid{
+        display: block;
+        font-size: 1.5rem;
+    }
+
+    #nav-heads ul {
+        background: #ff004f;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+
+    #nav-heads ul li{
+        display: block;
+        margin: 1.5rem;
+    }
+
+
+    #nav-heads ul .fa-solid{
+        position: absolute;
+        top: 1.5rem;
+        left: 1.5rem;
+        cursor: pointer;
+    }
+
+    .contact{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fa-bars{
+        margin-right: 1rem;
+    }
+
+    footer{
+        font-size: .7rem;
+    }
+}

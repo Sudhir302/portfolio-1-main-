@@ -30,3 +30,14 @@ form.addEventListener('submit', e => {
         })
     .catch(error => console.error('Error!', error.message))
 })
+
+
+// ----------------------slide menu----------------------
+
+const slideMenu = document.getElementById('slide-menu');
+function openmenu(){
+    slideMenu.style.right ="0";
+}
+function closemenu(){
+    slideMenu.style.right="-200px";
+}
