@@ -162,4 +162,10 @@
     .tablinks{
         margin-top: 2rem;
     }
+
+    #about{
+        height: fit-content;
+        background-color: #ff004f;
+        width: fit-content;
+    }
 }

@@ -86,8 +86,10 @@ span{
 .subtitles{
     font-size: 3.5rem;
 }
-.content{
-    font-size: 1rem;
+
+#content{
+    width: fit-content;
+    font-size: 1.15rem;
     line-height: 1.5rem;
     text-align: justify;
 }
@@ -101,8 +103,12 @@ span{
 }
 
 #about-section{
-    margin-left: 30rem;
+    margin-left: 40rem;
     padding-top: 10rem;
+}
+
+.tab{
+    font-size: 1.5rem;
 }
 
 .tablinks{
@@ -128,9 +134,11 @@ span{
 
 /* ----------------------for education------------------ */
 
-#techskill li{
+
+#langskill li{
     font-size: 1.2rem;
-    color: #b54769;
+    color: wheat;
+    line-height: 1.6rem;
 }
 
 .course , #task h3{
