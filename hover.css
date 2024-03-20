@@ -80,6 +80,10 @@
     height: 100%;
 }
 
+.project-done:hover .main-layer{
+    height: 100%;
+}
+
 /* -------------------for btn------------------------ */
 
 .btn:hover{
