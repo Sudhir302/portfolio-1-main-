@@ -163,6 +163,11 @@
         margin-top: 2rem;
     }
 
+    .tablinks p{
+        font-size: 1.1rem;
+        font-weight: bold;
+    }
+
     #about{
         height: fit-content;
         width: fit-content;
